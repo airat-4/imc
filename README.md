@@ -1,8 +1,10 @@
 Build and Run
+-------------
 
-Run in the command line:
+1. Run in the command line:
+	```
+	mvn package
+	mvn jetty:run
+	```
 
-mvn package
-mvn jetty:run
-
-Open http://localhost:8080 in a web browser.
+2. Open `http://localhost:8080` in a web browser.
